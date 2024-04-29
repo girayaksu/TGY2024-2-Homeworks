@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="465" id="KGk-i7-Jjw" customClass="TicketCell" customModule="JetBilet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="520" height="465"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="520" height="465"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mbd-Y0-gsT">
+                        <rect key="frame" x="8" y="8" width="504" height="449"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biletim" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Hg-bm-USy">
+                                <rect key="frame" x="0.0" y="7.9999999999999982" width="504" height="26.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <color key="textColor" red="0.05718549539" green="0.44943833020000001" blue="0.2118545701" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="gyc-bK-l12">
+                                <rect key="frame" x="8" y="42.333333333333343" width="488" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="SQq-18-g0Y"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Nxs-hJ-aSD">
+                                <rect key="frame" x="8" y="150.33333333333334" width="488" height="290.66666666666663"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Giray Aksu" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fVG-Ac-g0j">
+                                        <rect key="frame" x="0.0" y="0.0" width="488" height="58"/>
+                                        <color key="backgroundColor" red="0.87843137979999997" green="0.96862745289999996" blue="0.93725490570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="textColor" red="0.037008428429999997" green="0.34525193500000001" blue="0.044462796960000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="123567" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f2m-Wb-JxN">
+                                        <rect key="frame" x="0.0" y="58" width="488" height="58.333333333333343"/>
+                                        <color key="backgroundColor" red="0.87843137979999997" green="0.96862745289999996" blue="0.93725490570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="textColor" red="0.037008428429999997" green="0.34525193500000001" blue="0.044462796960000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Istanbul ---&gt; Kocaeli" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fxF-eK-eUf">
+                                        <rect key="frame" x="0.0" y="116.33333333333334" width="488" height="58"/>
+                                        <color key="backgroundColor" red="0.87843137979999997" green="0.96862745289999996" blue="0.93725490570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="textColor" red="0.037008428429999997" green="0.34525193500000001" blue="0.044462796960000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="05.06.2024" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="STT-Li-uV7">
+                                        <rect key="frame" x="0.0" y="174.33333333333334" width="488" height="58.333333333333343"/>
+                                        <color key="backgroundColor" red="0.87843137979999997" green="0.96862745289999996" blue="0.93725490570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="textColor" red="0.037008428429999997" green="0.34525193500000001" blue="0.044462796960000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="24, 27, 29" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T1W-9e-cih">
+                                        <rect key="frame" x="0.0" y="232.66666666666663" width="488" height="58"/>
+                                        <color key="backgroundColor" red="0.87843137979999997" green="0.96862745289999996" blue="0.93725490570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="textColor" red="0.037008428429999997" green="0.34525193500000001" blue="0.044462796960000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87843137979999997" green="0.96862745289999996" blue="0.93725490570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Nxs-hJ-aSD" firstAttribute="leading" secondItem="Mbd-Y0-gsT" secondAttribute="leading" constant="8" id="8p0-rn-295"/>
+                            <constraint firstAttribute="trailing" secondItem="Nxs-hJ-aSD" secondAttribute="trailing" constant="8" id="DwS-ng-E6d"/>
+                            <constraint firstItem="gyc-bK-l12" firstAttribute="leading" secondItem="Mbd-Y0-gsT" secondAttribute="leading" constant="8" id="LRL-f6-22t"/>
+                            <constraint firstAttribute="bottom" secondItem="Nxs-hJ-aSD" secondAttribute="bottom" constant="8" id="Nvw-VS-u03"/>
+                            <constraint firstItem="Nxs-hJ-aSD" firstAttribute="top" secondItem="gyc-bK-l12" secondAttribute="bottom" constant="8" id="UDL-GA-U9U"/>
+                            <constraint firstItem="7Hg-bm-USy" firstAttribute="leading" secondItem="Mbd-Y0-gsT" secondAttribute="leading" id="V1k-wJ-TAk"/>
+                            <constraint firstAttribute="trailing" secondItem="gyc-bK-l12" secondAttribute="trailing" constant="8" id="WYE-p0-wb7"/>
+                            <constraint firstAttribute="trailing" secondItem="7Hg-bm-USy" secondAttribute="trailing" id="WyU-NC-myK"/>
+                            <constraint firstItem="gyc-bK-l12" firstAttribute="top" secondItem="7Hg-bm-USy" secondAttribute="bottom" constant="8" id="nYE-kw-ZSk"/>
+                            <constraint firstItem="7Hg-bm-USy" firstAttribute="top" secondItem="Mbd-Y0-gsT" secondAttribute="top" constant="8" id="nau-by-w1R"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Mbd-Y0-gsT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="A4L-rO-Mkm"/>
+                    <constraint firstItem="Mbd-Y0-gsT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="kGM-gN-Q9d"/>
+                    <constraint firstAttribute="trailing" secondItem="Mbd-Y0-gsT" secondAttribute="trailing" constant="8" id="yCb-EI-fUU"/>
+                    <constraint firstAttribute="bottom" secondItem="Mbd-Y0-gsT" secondAttribute="bottom" constant="8" id="yjF-VX-mGQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="date" destination="STT-Li-uV7" id="x1M-wS-NBI"/>
+                <outlet property="id" destination="f2m-Wb-JxN" id="pmi-er-z6i"/>
+                <outlet property="location" destination="fxF-eK-eUf" id="Aae-eA-IuZ"/>
+                <outlet property="name" destination="fVG-Ac-g0j" id="VkS-n5-0gh"/>
+                <outlet property="seat" destination="T1W-9e-cih" id="V5x-sA-n4P"/>
+            </connections>
+            <point key="canvasLocation" x="-159" y="60"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="logo" width="1792" height="674"/>
+    </resources>
+</document>
